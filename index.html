@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élezés Halásztelek</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#374151',
+                        secondary: '#6B7280',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-12">
+        <!-- Hero Section -->
+        <section class="flex flex-col md:flex-row items-center gap-12 mb-20">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl md:text-5xl font-bold text-primary mb-6">Precíziós élezés kedvenc szerszámaihoz</h1>
+                <p class="text-secondary text-lg mb-8">Helyezze vissza pengéit korábbi dicsőségükbe szakértői élezési
+                    szolgáltatásunkkal. Borotvaéles él garantálva.</p>
+                <div class="flex gap-4">
+                    <a href="prices.html"
+                        class="bg-primary hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition duration-300">Árak
+                        megtekintése</a>
+                    <a href="contact.html"
+                        class="border-2 border-primary text-primary hover:bg-gray-100 px-6 py-3 rounded-lg transition duration-300">Átadási/felvételi
+                        helyszín</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="images/szerszamok.jpg" alt="Szerszámok" class="rounded-xl shadow-xl">
+            </div>
+        </section>
+
+        <!-- Services Highlights -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold text-primary text-center mb-12">Szolgáltatásiank</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-primary mb-4">
+                        <i data-feather="git-merge" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Kések</h3>
+                    <p class="text-secondary">Konyhai és vadászkéseit precízen, tökéletesre élezzük.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-primary mb-4">
+                        <i data-feather="scissors" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Ollók</h3>
+                    <p class="text-secondary">Hajvágó-, sövényvágó- és általános ollóit újra pontosan, hibátlanul vágó
+                        állapotba állítjuk.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-primary mb-4">
+                        <i data-feather="tool" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Kertészeti szerszámok</h3>
+                    <p class="text-secondary">Metszőollók, ágvágók és más kerti szerszámok – élezve, hogy ismét a
+                        legjobb teljesítményt nyújtsák.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="bg-primary text-white p-8 rounded-xl mb-20">
+            <h2 class="text-3xl font-bold text-center mb-8">Egyszerű folyamat</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div
+                        class="bg-white text-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                        1</div>
+                    <h3 class="text-xl font-semibold mb-2">Átadás</h3>
+                    <p>Hozza el eszközeit kényelmesen megközelíthető helyszínünkre!</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="bg-white text-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                        2</div>
+                    <h3 class="text-xl font-semibold mb-2">Élezés</h3>
+                    <p>Minden darabot gondos, kézi élezéssel teszünk újjá.</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="bg-white text-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                        3</div>
+                    <h3 class="text-xl font-semibold mb-2">Átvétel</h3>
+                    <p>Vegye át újra éles, használatra kész szerszámait!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+
+</html>

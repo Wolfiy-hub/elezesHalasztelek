@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Átadás/Felvétel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-12">
+
+        <!-- Contact Info -->
+        <div class="grid md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-2xl font-bold text-primary mb-6">Átadás és felvétel adatai</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start gap-4">
+                        <div class="text-amber-500 mt-1">
+                            <i data-feather="map-pin"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Cím</h3>
+                            <p class="text-secondary">II. Rákóczi Ferenc út 54<br>Halásztelek 2314</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="text-amber-500 mt-1">
+                            <i data-feather="clock"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Nyitva tartási idők.</h3>
+                            <p class="text-secondary">
+                                Hétfő - Péntek: 9:00 - 17:00<br>
+                                Szombat: 9:00 - 12:00<br>
+                                Vasárnap: zárva
+                            </p>
+                        </div>
+                    </div>
+                    <!--
+                        <div class="flex items-start gap-4">
+                            <div class="text-amber-500 mt-1">
+                                <i data-feather="phone"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold">Phone</h3>
+                                <p class="text-secondary">(123) 456-7890</p>
+                            </div>
+                        </div>
+                        -->
+                    <div class="flex items-start gap-4">
+                        <div class="text-amber-500 mt-1">
+                            <i data-feather="mail"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Email</h3>
+                            <p class="text-secondary">elezes.halasztelek@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold text-primary mb-6">Utasítások</h2>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <ol class="space-y-4">
+                        <li class="flex gap-3">
+                            <span
+                                class="bg-amber-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">1</span>
+                            <span>Hozza el tárgyait munkaidőben</span>
+                        </li>
+                        <!--
+                            <li class="flex gap-3">
+                                <span class="bg-amber-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">2</span>
+                                <span>Complete a quick service form</span>
+                            </li>
+                            -->
+                        <li class="flex gap-3">
+                            <span
+                                class="bg-amber-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">2</span>
+                            <span>Kapjon egy becsült elkészülési időt</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span
+                                class="bg-amber-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">3</span>
+                            <span>Térjen vissza, hogy felvegye a kiélezett tárgyaidat</span>
+                        </li>
+                    </ol>
+                    <div class="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-100">
+                        <div class="flex gap-3">
+                            <div class="text-amber-500">
+                                <i data-feather="alert-triangle"></i>
+                            </div>
+                            <p class="text-amber-800">Kérjük, győződjön meg arról, hogy minden tárgy tiszta és száraz,
+                                mielőtt leadja őket. Biztonsági okokból nem tudunk olyan tárgyakat elfogadni, amelyeknek
+                                laza fogantyúja van vagy súlyosan megrongálódtak.
+                                <br>
+                                <br>Törésért felelősséget nem tudok vállalni.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

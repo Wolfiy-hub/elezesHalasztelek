@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rólam</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-12">
+        <h1 class="text-4xl font-bold text-primary text-center mb-12">Élezés Halásztelekről és rólam</h1>
+
+        <!-- First Section -->
+        <section class="about-section mb-20">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <img src="images/elezes.png" alt="Kés élezés" class="rounded-xl shadow-lg w-full h-auto">
+            </div>
+            <div class="md:w-1/2 md:pl-12">
+                <h2 class="text-3xl font-bold text-primary mb-6">A történetem</h2>
+                <p class="text-secondary mb-4">A nevem Palotás János, az élezés először csak hobbiként jelent meg az
+                    életemben — mindig is szerettem a precíz, kézzel végezhető munkát, és érdekes volt látni, hogyan
+                    válik egy életlen kés vagy olló újra pontos szerszámmá.</p>
+                <p class="text-secondary mb-4">A kezdeti kíváncsiságból lassan elhivatottság lett, és idővel
+                    megszületett az ötlet, hogy ezt ne csak magamnak, hanem másoknak is csináljam. Így indult el a
+                    vállalkozás, apró lépésekkel, de annál több lelkesedéssel.</p>
+            </div>
+        </section>
+
+        <!-- Second Section -->
+        <section class="about-section reverse mb-20">
+            <div class="md:w-1/2 md:pr-12">
+                <h2 class="text-3xl font-bold text-primary mb-6">Kézművesség</h2>
+                <p class="text-secondary mb-4">Az élezés számomra nem futószalagmunka. Minden darab más, és mindegyik
+                    megérdemli a figyelmet.</p>
+                <p class="text-secondary mb-4">Nem sietek, inkább pontosan dolgozom — hiszek abban, hogy a jó szerszám
+                    élettartamát a gondos élezés hosszabbítja meg.</p>
+                <p class="text-secondary">Minden pengét úgy élezek, mintha a sajátom lenne: tisztán, egyenletesen, a
+                    lehető legjobb minőségre törekedve.</p>
+            </div>
+            <div class="md:w-1/2">
+                <img src="images/furesz.png" alt="Fűrész élezés" class="rounded-xl shadow-lg w-full h-auto">
+            </div>
+        </section>
+
+        <!-- Third Section -->
+        <section class="about-section">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <img src="images/eszkozok.JPG" alt="Eszköz" class="rounded-xl shadow-lg w-full h-auto">
+            </div>
+            <div class="md:w-1/2 md:pl-12">
+                <h2 class="text-3xl font-bold text-primary mb-6">A műhely</h2>
+                <p class="text-secondary mb-4">A munkát professzionális gépekkel végzem (Tormek T8, DT Grinder KS1,
+                    Vevor 370, Tecomec Jolly Evo), amelyekkel precíz, megbízható eredmény érhető el.</p>
+                <p class="text-secondary mb-4">A szerszámok leadása és átvétele Halásztelken a papírboltan történik — ez
+                    a helyi “leadó- és átvételi pont”. Általában 24 órán belül elkészülnek a munkák, így kényelmesen,
+                    rugalmasan intézhető minden.
+                </p>
+                <p class="text-secondary">A célom egyszerű: hogy aki hozzám hozza a szerszámait, elégedetten, valóban
+                    éles eszközökkel térjen vissza a munkájához.</p>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+
+</html>

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árak</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-12">
+        <h1 class="text-4xl font-bold text-primary text-center mb-12">Áraink</h1>
+
+
+
+        <div>
+            <h2 class="text-2xl font-bold text-primary mb-6">
+                Fontos tudnivalók:
+            </h2>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-100">
+                    <div class="flex gap-3">
+                        <div class="text-amber-500">
+                            <i data-feather="alert-triangle"></i>
+                        </div>
+                        <p class="text-amber-800">
+                            Áraink bruttó árak. Az élezendő eszközök átadási és átvételi pontja:
+                            Halásztelek, II. Rákóczi Ferenc út 54 (papírbolt).
+                            <br><br>
+                            Az élezést általában 24 órán belül, másnapra biztosítom.
+                            Kérdéseit várjuk az elezes.halasztelek@gmail.com címen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
+        <!-- Price Categories -->
+        <div class="max-w-3xl mx-auto">
+            <!-- Kitchen Knives -->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="git-merge" class="text-amber-500"></i>
+                    Késélezés (élszalagos)
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>Konyhakés</span>
+                        <span class="font-semibold">50 Ft/cm, minimum 600 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>Bicska, zsebkés</span>
+                        <span class="font-semibold">900–3000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Vadászkés, túrakés, tőrkés</span>
+                        <span class="font-semibold">1000–3000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>Kenyérvágó kés (hullámos)</span>
+                        <span class="font-semibold">1000–1500 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>Kerámiakés</span>
+                        <span><i>hamarosan</i></span>
+                        <span class="font-semibold"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scissors -->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="scissors" class="text-amber-500"></i>
+                    Ollóélezés
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>Kisolló, körömvágó, iskolai olló</span>
+                        <span class="font-semibold">600 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>Konyhai/háztartási olló</span>
+                        <span class="font-semibold">900 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Fodrász- és állatkozmetikai olló:</span>
+                        <span class="font-semibold">1000–3000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>Sövénynyíró olló (kézi):</span>
+                        <span class="font-semibold">1500 Ft/db</span>
+                    </div>
+                    <div class="text-amber-500">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-100">
+                                <div class="flex gap-3">
+                                    <div class="text-amber-500">
+                                        <i data-feather="alert-triangle"></i>
+                                    </div>
+                                    <p class="text-amber-800">Nem vállalom: elgörbült hegyű manikűrolló helyreállítását,
+                                        súlyosan sérült geometriájú ollókat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- Garden Tools -->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="tool" class="text-amber-500"></i>
+                    Kerti szerszámok
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>Fejsze, balta</span>
+                        <span class="font-semibold">1500–2000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>Bozótvágó, macséta</span>
+                        <span class="font-semibold">1500–2000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Ágvágó olló (kézi/karos)</span>
+                        <span class="font-semibold">1000–1500 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Sarló, ásó, kapa</span>
+                        <span><i>hamarosan</i></span>
+                        <span class="font-semibold">1000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Metszőolló</span>
+                        <span class="font-semibold">1000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Kézi fűnyíró olló</span>
+                        <span class="font-semibold">900–1500 Ft/db</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Meat cutting-->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="clipboard" class="text-amber-500"></i>
+                    Húshoz kapcsolódó
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>Húsdaráló kés és tárcsa</span>
+                        <span><i>hamarosan</i></span>
+                        <span class="font-semibold">1250–2500 Ft/db mérettől függően</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>Konyhai/húsbárd</span>
+                        <span class="font-semibold">1500–2000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Betört élű bárd</span>
+                        <span class="font-semibold">előzetes egyeztetéssel</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Fűnyírókés-->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="bar-chart-2" class="text-amber-500"></i>
+                    Fűnyírókés
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>Normál (elektromos, benzines)</span>
+                        <span><i>kiegyensúlyozással</i></span>
+                        <span class="font-semibold">2000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>Fűnyíró traktor kés</span>
+                        <span class="font-semibold">3000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Ágaprító kés</span>
+                        <span class="font-semibold">120 Ft/cm</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Láncfűrész-->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="link" class="text-amber-500"></i>
+                    Láncfűrész lánc (vezetőszem számolásával)
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>64 szem alatt</span>
+                        <span class="font-semibold">1000 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>64–72 szem</span>
+                        <span class="font-semibold">1200 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>72 szem felett</span>
+                        <span class="font-semibold">20 Ft/szem</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Keményfémbetétes</span>
+                        <span><i>vidiás</i></span>
+                        <span class="font-semibold">50 Ft/szem</span>
+                    </div>
+                    <div class="text-amber-500">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-100">
+                                <div class="flex gap-3">
+                                    <div class="text-amber-500">
+                                        <i data-feather="alert-triangle"></i>
+                                    </div>
+                                    <p class="text-amber-800">Láncot leszerelt állapotban hozza!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <!--Sövényvágó / sövénynyíró-->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="bar-chart-2" class="text-amber-500"></i>
+                    Sövényvágó / sövénynyíró
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>Elektromos</span>
+                        <span><i>(50 cm-ig, szétszedés nélkül)</i></span>
+                        <span class="font-semibold">1500 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3 bg-gray-50">
+                        <span>Elektromos szétszedéssel</span>
+                        <span class="font-semibold">3000 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>Benzines</span>
+                        <span><i>(egyeztetés szükséges)</i></span>
+                        <span class="font-semibold">3000 Ft-tól</span>
+                    </div>
+                    <div class="text-amber-500">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-100">
+                                <div class="flex gap-3">
+                                    <div class="text-amber-500">
+                                        <i data-feather="alert-triangle"></i>
+                                    </div>
+                                    <p class="text-amber-800">Szétszerelt állapotban ajánlott, amennyiben nem
+                                        szedi szét, előre egyeztetés szükséges.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <!--Véső élezés-->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="arrow-up" class="text-amber-500"></i>
+                    Véső élezés
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>Normál és favéső</span>
+                        <span class="font-semibold">600–900 Ft/db</span>
+                    </div>
+                    <div class="text-amber-500">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-100">
+                                <div class="flex gap-3">
+                                    <div class="text-amber-500">
+                                        <i data-feather="alert-triangle"></i>
+                                    </div>
+                                    <p class="text-amber-800">Betört vésőt nem vállalok!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <!--Körfűrészlap (keményfémbetéstes, „vidiás”)-->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="disc" class="text-amber-500"></i>
+                    Körfűrészlap (keményfémbetéstes, „vidiás”)
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>30 cm alatt</span>
+                        <span class="font-semibold">40 Ft/fog</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>30 cm felett</span>
+                        <span class="font-semibold">55 Ft/fog</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Csigafúró élezés-->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="chevrons-down" class="text-amber-500"></i>
+                    Csigafúró élezés ( gépi, 118° vagy 130°, keresztél kikönnyítéssel)
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>5-6mm</span>
+                        <span class="font-semibold">250Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>7-8mm</span>
+                        <span class="font-semibold">350 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>9-10mm</span>
+                        <span class="font-semibold">500 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>11-12mm</span>
+                        <span class="font-semibold">600 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>13-14mm</span>
+                        <span class="font-semibold">800 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>15-16mm</span>
+                        <span class="font-semibold">1200 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>17-18mm</span>
+                        <span class="font-semibold">1400 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>19-20mm</span>
+                        <span class="font-semibold">1600 FT</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Új, kobaltos csigafúró-->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="chevrons-up" class="text-amber-500"></i>
+                    Új, kobaltos csigafúró ( 5% Co tartalmú, HSS M35 csigafúró)
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>1,5mm</span>
+                        <span class="font-semibold">80 Ft /db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>2mm</span>
+                        <span class="font-semibold">120Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>2,5mm</span>
+                        <span class="font-semibold">150Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>3mm</span>
+                        <span class="font-semibold">200 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>3,2mm</span>
+                        <span class="font-semibold">250 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>3,5mm</span>
+                        <span class="font-semibold">250 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>4mm</span>
+                        <span class="font-semibold">300 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>4,5mm</span>
+                        <span class="font-semibold">400Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>5mm</span>
+                        <span class="font-semibold">500 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>5,5mm</span>
+                        <span class="font-semibold">500Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>6mm</span>
+                        <span class="font-semibold">600Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>7mm</span>
+                        <span class="font-semibold">650Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>8mm</span>
+                        <span class="font-semibold">850 Ft/db</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span>10mm</span>
+                        <span class="font-semibold">1300 Ft/db</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Akkumulátor-->
+            <div class="price-category mb-12">
+                <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                    <i data-feather="archive" class="text-amber-500"></i>
+                    Akkumulátor
+                </h2>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="price-item px-6 py-3">
+                        <span>Makita 18V 5Ah utángyártott akkumulátor</span>
+                        <span><i>(megrendelésre)</i></span>
+                        <span class="font-semibold">18.000 Ft</span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span></span>
+                        <span><i>EVE INR18650-25P cellákkal, megbízható minőség</i></span>
+                        <span class="font-semibold"></span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span></span>
+                        <span><i>Kompatibilis a legtöbb 18–20V-os kínai eszközzel</i></span>
+                        <span class="font-semibold"></span>
+                    </div>
+                    <div class="price-item px-6 py-3">
+                        <span></span>
+                        <span><i>Tesztelve, biztonságos, BMS-sel védett</i></span>
+                        <span class="font-semibold"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Extra infó-->
+            <div class="text-amber-500">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-100">
+                        <div class="flex gap-3">
+                            <div class="text-amber-800">
+                                <i data-feather="info"></i>
+                            </div>
+                            <p class="text-amber-800">Egyéb Háztartási eszközök élezése: érdeklődjön elérhetőségemen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+
+</html>

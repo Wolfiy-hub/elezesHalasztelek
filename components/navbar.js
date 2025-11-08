@@ -75,7 +75,7 @@ class CustomNavbar extends HTMLElement {
             <span>Élezés Halásztelek</span>
           </a>
             <ul>
-            <li><a href="index.html"><i data-feather="home" class="nav-icon"></i> Otthon</a></li>
+            <li><a href="index.html"><i data-feather="home" class="nav-icon"></i> Kezdőlap</a></li>
             <li><a href="prices.html"><i data-feather="dollar-sign" class="nav-icon"></i> Árak</a></li>
             <li><a href="about.html"><i data-feather="user" class="nav-icon"></i> Rólam</a></li>
             <li><a href="contact.html"><i data-feather="user" class="nav-icon"></i> Átadás/Felvétel</a></li>

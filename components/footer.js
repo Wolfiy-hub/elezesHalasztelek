@@ -56,7 +56,7 @@ class CustomFooter extends HTMLElement {
             <h3>Élezés Halásztelek</h3>
             <p>Precíziós élezési szolgáltatások minden vágószerszámához.</p>
             <div class="social-icons">
-              <a href="https://www.youtube.com/@csiga888888/videos"><i data-feather="youtube">Youtube</i></a>
+              <a href="https://www.youtube.com/@csiga888888/videos" target="_blank"><i data-feather="youtube">Youtube</i></a>
               <a href="#"><i data-feather="instagram"></i></a>
               <a href="#"><i data-feather="twitter"></i></a>
             </div>

@@ -63,10 +63,10 @@ class CustomFooter extends HTMLElement {
           </div>
           <div class="footer-section">
             <h3>Gyors linkek</h3>
-            <a href="index.html">Otthon</a>
-            <a href="prices.html">Árak</a>
-            <a href="about.html">Rólam</a>
-            <a href="contact.html">Átadás/Felvétel</a>
+            <a href="/kezdolap">Otthon</a>
+            <a href="/arak">Árak</a>
+            <a href="/rolam">Rólam</a>
+            <a href="/atadas">Átadás/Felvétel</a>
           </div>
           <div class="footer-section">
             <h3>Kapcsolat</h3>

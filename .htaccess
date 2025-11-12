@@ -1,0 +1,28 @@
+# Apache URL átíró motor bekapcsolása
+RewriteEngine On
+
+# ----------------------------------------------------------------------
+# 1. SZABÁLYCSOPORT: Régi .html URL-ek átirányítása az újakra (SEO)
+# Ha valaki a regi .html linket használja, véglegesen átirányítjuk az újra.
+# ----------------------------------------------------------------------
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^index\.html$ /kezdolap [L,R=301]
+
+RewriteCond %{THE_REQUEST} /about\.html [NC]
+RewriteRule ^about\.html$ /rolam [L,R=301]
+
+RewriteCond %{THE_REQUEST} /contact\.html [NC]
+RewriteRule ^contact\.html$ /atadas [L,R=301]
+
+RewriteCond %{THE_REQUEST} /prices\.html [NC]
+RewriteRule ^prices\.html$ /arak [L,R=301]
+
+
+# ----------------------------------------------------------------------
+# 2. SZABÁLYCSOPORT: "Szép" URL-ek belső lekezelése
+# Ha a felhasználó a szép URL-t írja be, a szerver a megfelelő .html fájlt adja neki.
+# ----------------------------------------------------------------------
+RewriteRule ^kezdolap/?$ index.html [L]
+RewriteRule ^rolam/?$ about.html [L]
+RewriteRule ^atadas/?$ contact.html [L]
+RewriteRule ^arak/?$ prices.html [L]

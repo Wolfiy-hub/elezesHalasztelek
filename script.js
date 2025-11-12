@@ -42,5 +42,3 @@ function kovetkezoKep() {
 
 // 1,5 másodpercenként képváltás
 setInterval(kovetkezoKep, 5000);
-
-

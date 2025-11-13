@@ -71,7 +71,7 @@ class CustomFooter extends HTMLElement {
           <div class="footer-section">
             <h3>Kapcsolat</h3>
             <p><i data-feather="mail"></i> elezes.halasztelek@gmail.com</p>
-            <p><i data-feather="map-pin"></i> Halásztelek, II. Rákóczi Ferenc út 54/C (papírbolt), 2314</p>
+            <p><i data-feather="map-pin"></i>2314 Halásztelek, II. Rákóczi Ferenc út 54/C (papírbolt)</p>
           </div>
         </div>
         <div class="footer-bottom">
